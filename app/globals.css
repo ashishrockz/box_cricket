@@ -1,5 +1,10 @@
 @import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
+/* small app styling */
+html, body, #__next { height: 100%; }
 :root {
   --background: #ffffff;
   --foreground: #171717;
